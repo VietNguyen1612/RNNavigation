@@ -1,0 +1,43 @@
+{
+    "name": "rn-navigation",
+    "version": "0.0.1",
+    "description": "Showcase a Fabric Native Component with a centered text",
+    "react-native": "js/index",
+    "source": "js/index",
+    "files": [
+        "js",
+        "android",
+        "ios",
+        "rtn-centered-text.podspec",
+        "!android/build",
+        "!ios/build",
+        "!**/__tests__",
+        "!**/__fixtures__",
+        "!**/__mocks__"
+    ],
+    "keywords": [
+        "react-native",
+        "ios",
+        "android"
+    ],
+    "repository": "https://github.com/VietNguyen1612/react-native-navigation",
+    "author": "VietNguyen1612 namvietnguyenn@gmail.com (https://github.com/VietNguyen1612)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/VietNguyen1612/react-native-navigation/issues"
+    },
+    "homepage": "https://github.com/VietNguyen1612/react-native-navigation#readme",
+    "devDependencies": {
+        "react": "18.2.0",
+        "react-native": "0.72.6"
+    },
+    "peerDependencies": {
+        "react": "*",
+        "react-native": "*"
+    },
+    "codegenConfig": {
+        "name": "RNNavigationSpecs",
+        "type": "components",
+        "jsSrcsDir": "js"
+    }
+}
