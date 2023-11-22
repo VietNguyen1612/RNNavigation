@@ -1,4 +1,4 @@
-package com.reactnativenavigation;
+package com.rnnavigation;;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.NativeModule;
